@@ -17,9 +17,5 @@ function submitData(name, email) {
   })
   .then(function(object) {
     console.log(object);
-  })
-  .catch(function(error) {
-    alert("Bad things! Ragnarők!");
-    console.log(error.message);
   });
 };
