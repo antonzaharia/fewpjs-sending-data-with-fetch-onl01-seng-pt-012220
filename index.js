@@ -22,7 +22,7 @@ function submitData(name, email) {
     body.appendChild(p);
   })
   .catch(function(error) {
-    alert("Bad things! Ragnarők!");
+    alert("Unauthorized Access");
     console.log(error.message);
   });
 };
