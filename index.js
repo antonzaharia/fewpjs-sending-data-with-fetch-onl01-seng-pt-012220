@@ -20,5 +20,9 @@ function submitData(name, email) {
     p.textContent = object["id"];
     let body = document.querySelector('body')
     body.appendChild(p);
+  })
+  .catch(function(error) {
+    alert("Bad things! Ragnarők!");
+    console.log(error.message);
   });
 };
