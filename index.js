@@ -6,7 +6,7 @@ function submitData(name, email) {
   let configObj = {
     method: "POST",
     headers: {
-      "content-type": "application/json",
+      "content-Type": "application/json",
       "accept": "application/json"
     },
     body: JSON.stringify(formData)
