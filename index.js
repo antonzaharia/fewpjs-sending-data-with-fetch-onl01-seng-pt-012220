@@ -1,7 +1,7 @@
 function submitData(name, email) {
   let formData = {
-    let name = name;
-    let email = email;
+    "name": name;
+    "email" = email;
   }
   let configObj = {
     method: "POST",
