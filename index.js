@@ -17,7 +17,7 @@ function submitData(name, email) {
   })
   .then(function(object) {
     let p = object["id"]
-    let body = document.querySelector('div')
+    let body = document.querySelector('body')
     body.appendChild(p);
   });
 };
