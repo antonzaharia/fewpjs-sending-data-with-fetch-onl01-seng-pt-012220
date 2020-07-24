@@ -16,7 +16,7 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(object) {
-    let p = createElement('p');
+    let p = document.createElement('p');
     p.textContent = object["id"];
     let body = document.querySelector('body')
     body.appendChild(p);
