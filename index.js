@@ -17,6 +17,5 @@ function submitData(name, email) {
   })
   .then(function(object) {
     document.querySelector('body').innerHTML(object['id']);
-
   });
 };
