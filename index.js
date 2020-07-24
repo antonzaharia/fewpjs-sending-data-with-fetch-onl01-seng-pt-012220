@@ -16,8 +16,7 @@ function submitData(name, email) {
     return response.json();
   })
   .then(function(object) {
-    let p = object["id"]
-    let body = document.querySelector('body')
-    body.appendChild(p);
+    document.querySelector('body').innerHTML(object['id']);
+
   });
 };
